@@ -1,0 +1,68 @@
+[
+  {
+    "_id": {
+      "$oid": "602abbe8e7fc582d686f4e1a"
+    },
+    "price_id": "xxxxxxxxxxxx",
+    "name": "FREE PLAN",
+    "cms": {
+      "maxLocation": 5,
+      "mapBoxMapSettings": {
+        "themeColor": true,
+        "marker": false,
+        "updateHeight": true,
+        "provider": true,
+        "zoomLevel": true,
+        "header": true,
+        "language": true,
+        "filterButtonName": true,
+        "fontColor1": true,
+        "headingBackgroundColor": true
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "602ac5fae7fc582d686f4e1b"
+    },
+    "price_id": "xxxxxxxxxxxx",
+    "name": "LITE PLAN",
+    "cms": {
+      "mapBoxMapSettings": {
+        "themeColor": true,
+        "updateHeight": true,
+        "marker": true,
+        "provider": true,
+        "zoomLevel": true,
+        "header": true,
+        "language": true,
+        "filterButtonName": true,
+        "fontColor1": true,
+        "headingBackgroundColor": true
+      },
+      "maxLocation": 50
+    }
+  },
+  {
+    "_id": {
+      "$oid": "602c1ed769096605908b1ea0"
+    },
+    "price_id": "xxxxxxxxxxxx",
+    "name": "PLUS PLAN",
+    "cms": {
+      "mapBoxMapSettings": {
+        "updateHeight": true,
+        "marker": true,
+        "provider": true,
+        "themeColor": true,
+        "zoomLevel": true,
+        "header": true,
+        "language": true,
+        "filterButtonName": true,
+        "fontColor1": true,
+        "headingBackgroundColor": true
+      },
+      "maxLocation": 0
+    }
+  }
+]

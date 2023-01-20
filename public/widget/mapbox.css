@@ -1,0 +1,279 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.filter-badge{
+  background-color: #e2e2e2 ;
+  border: none;
+  color: #545454 ;
+  margin: 3px;
+  padding: 1px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: 0 !important;
+  border-radius: 20px;
+}
+
+.filter-button {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: #545454;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: 0 !important;
+  border-radius: 20px;
+  cursor: pointer;
+  border-color: #545454;
+  margin: 12px;
+
+}
+
+.filter-close-icon {
+  background-image: url("https://cdn.gangnam.club/widget/close.svg");
+  height: 16px;
+  width: 16px;
+  background-repeat:no-repeat; 
+  background-position:center; 
+  display: inline-block;
+ 
+}
+
+.filter {
+  background: #fff;
+  min-height: 30px;
+  padding: 0 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+
+#mapstuff-map-filter-box {
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Open Sans', sans-serif;
+  margin: 4px;
+  padding: 10px;
+}
+
+#map-mapstuff {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#mapstuff-listings {
+  display: block;
+  float: left;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.sidebar {}
+
+.pad2 {
+  padding: 20px;
+}
+
+#mapstuff-map {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.map {}
+
+@media (min-width: 1024px) {
+  #map-mapstuff {
+    flex-direction: row;
+  }
+  #mapstuff-listings {
+      display: block;
+      float: left;
+      width: 33.33%;
+  }
+  #mapstuff-map {
+      display: block;
+      position: relative;
+      width: 66.66%;
+  }
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 20px 2px;
+}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #101010;
+}
+
+.heading {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  min-height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+
+.listings {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+  background-color: white;
+}
+
+.listings .item {
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listings .item:last-child {
+  border-bottom: none;
+}
+
+.listings .item .title {
+  display: block;
+  color: #1c1c1c;
+  font-weight: 700;
+}
+
+.listings .item .title small {
+  font-weight: 400;
+}
+
+.listings .item.active .title,
+.listings .item .title:hover {
+  color: #b9b9b9;
+}
+
+.listings .item.active {
+  background-color: #f8f8f8;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Marker tweaks */
+.mapboxgl-popup {
+  padding-bottom: 50px;
+}
+
+.mapboxgl-popup-close-button {
+  display: none;
+}
+
+.mapboxgl-popup-content {
+  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  padding: 0;
+  width: 180px;
+}
+
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}
+
+.mapboxgl-popup-content h3 {
+  background: #1c1c1c;
+  color: #fff;
+  margin: 0;
+  display: block;
+  padding: 10px;
+  border-radius: 3px 3px 0 0;
+  font-weight: 700;
+  margin-top: -15px;
+}
+
+.mapboxgl-popup-content h4 {
+  margin: 0;
+  display: block;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+}
+
+.mapboxgl-popup-content div {
+  padding: 10px!important;
+}
+
+.mapboxgl-container .leaflet-marker-icon {
+  cursor: pointer;
+}
+
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+  margin-top: 15px;
+}
+
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+  border-bottom-color: transparent;
+}
+
+.mapboxgl-popup-anchor-bottom>.mapboxgl-popup-tip {
+  border-top-color: transparent;
+}
+
+/* START NEW CLASSES AND IDs. TO BE USED AFTER THE MAPSTUFF APP IS UPDATED */
+
+/*
+#map-stuff-sidebar {
+  float: left;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.map-stuff-sidebar {}
+
+.pad2 {
+  padding: 20px;
+}
+
+#map-stuff-map {
+  position: relative;
+  float: left;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-stuff-map {}
+
+@media (min-width: 1024px) {
+  #map-stuff-sidebar {width: 33%;}
+  #map-stuff-map {width: 66%;}
+}
+*/

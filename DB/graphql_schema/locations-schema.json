@@ -1,0 +1,96 @@
+{
+  "roles": [
+    {
+      "name": "default",
+      "apply_when": {},
+      "insert": true,
+      "delete": true,
+      "search": true,
+      "write": true,
+      "fields": {},
+      "additional_fields": {}
+    }
+  ],
+  "filters": [],
+  "schema": {
+    "title": "location",
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "app_id": {
+        "bsonType": "string"
+      },
+      "app_url": {
+        "bsonType": "string"
+      },
+      "created_by_id": {
+        "bsonType": "string"
+      },
+      "dateAdded": {
+        "bsonType": "string"
+      },
+      "dateModified": {
+        "bsonType": "string"
+      },
+      "geometry": {
+        "bsonType": "object",
+        "properties": {
+          "coordinates": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "type": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "name": {
+        "bsonType": "string"
+      },
+      "properties": {
+        "bsonType": "object",
+        "properties": {
+          "address": {
+            "bsonType": "string"
+          },
+          "city": {
+            "bsonType": "string"
+          },
+          "country": {
+            "bsonType": "string"
+          },
+          "email": {
+            "bsonType": "string"
+          },
+          "phone": {
+            "bsonType": "string"
+          },
+          "postalCode": {
+            "bsonType": "string"
+          },
+          "state": {
+            "bsonType": "string"
+          },
+          "url": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "status": {
+        "bsonType": "string"
+      },
+      "tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "type": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

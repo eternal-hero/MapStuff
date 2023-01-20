@@ -1,0 +1,70 @@
+{
+  "title": "app",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "app_url": {
+      "bsonType": "string"
+    },
+    "created_by_id": {
+      "bsonType": "string"
+    },
+    "filter_button": {
+      "bsonType": "string"
+    },
+    "filters": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "tags": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "title": {
+            "bsonType": "string"
+          }
+        }
+      }
+    },
+    "font_color_1": {
+      "bsonType": "string"
+    },
+    "heading_background_color": {
+      "bsonType": "string"
+    },
+    "map_api_key": {
+      "bsonType": "string"
+    },
+    "map_center": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "string"
+      }
+    },
+    "map_header": {
+      "bsonType": "string"
+    },
+    "map_height": {
+      "bsonType": "string"
+    },
+    "map_style": {
+      "bsonType": "string"
+    },
+    "map_zoom": {
+      "bsonType": "string"
+    },
+    "mapbox_language": {
+      "bsonType": "string"
+    },
+    "marker_color": {
+      "bsonType": "string"
+    },
+    "marker_icon": {
+      "bsonType": "string"
+    }
+  }
+}

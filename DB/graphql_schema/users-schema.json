@@ -1,0 +1,45 @@
+{
+  "roles": [
+    {
+      "name": "default",
+      "apply_when": {},
+      "insert": true,
+      "delete": true,
+      "search": true,
+      "write": true,
+      "fields": {},
+      "additional_fields": {}
+    }
+  ],
+  "filters": [],
+  "schema": {
+    "title": "user",
+    "required": [
+      "email",
+      "password"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "email": {
+        "bsonType": "string"
+      },
+      "password": {
+        "bsonType": "string"
+      },
+      "realm_api_key": {
+        "bsonType": "string"
+      },
+      "role_id": {
+        "bsonType": "int"
+      },
+      "stripe_customer_id": {
+        "bsonType": "string"
+      },
+      "username": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "title": "plans-acl",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "cms": {
+      "bsonType": "object",
+      "properties": {
+        "mapBoxMapSettings": {
+          "bsonType": "object",
+          "properties": {
+            "filterButtonName": {
+              "bsonType": "bool"
+            },
+            "fontColor1": {
+              "bsonType": "bool"
+            },
+            "header": {
+              "bsonType": "bool"
+            },
+            "headingBackgroundColor": {
+              "bsonType": "bool"
+            },
+            "language": {
+              "bsonType": "bool"
+            },
+            "mapStyles": {
+              "bsonType": "array",
+              "items": {
+                "bsonType": "object",
+                "properties": {
+                  "enable": {
+                    "bsonType": "bool"
+                  },
+                  "label": {
+                    "bsonType": "string"
+                  },
+                  "value": {
+                    "bsonType": "string"
+                  }
+                }
+              }
+            },
+            "marker": {
+              "bsonType": "bool"
+            },
+            "provider": {
+              "bsonType": "bool"
+            },
+            "themeColor": {
+              "bsonType": "bool"
+            },
+            "updateHeight": {
+              "bsonType": "bool"
+            },
+            "zoomLevel": {
+              "bsonType": "bool"
+            }
+          }
+        },
+        "maxLocation": {
+          "bsonType": "int"
+        }
+      }
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "price_id": {
+      "bsonType": "string"
+    }
+  }
+}

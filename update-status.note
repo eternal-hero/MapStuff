@@ -1,0 +1,24 @@
+ click the dark bar on the bottom of the window "_MongoSH"
+
+ `show dbs` will show all database
+ `use DevStoreLocatorWithMaps` (update DevStoreLocatorWithMaps to whatever db we are using on live)
+
+
+db.locations.updateMany(
+   { status: 'Active' },
+   {
+     $set: {
+       status: "Published",
+     }
+   }
+)
+
+
+db.locations.updateMany(
+   { status: 'Disabled' },
+   {
+     $set: {
+       status: "Unpublished",
+     }
+   }
+)
