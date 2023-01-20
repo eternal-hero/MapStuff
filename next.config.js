@@ -16,10 +16,7 @@ const STRIPE_PRICE_FREE = process.env.STRIPE_PRICE_FREE;
 const STRIPE_PRICE_LITE = process.env.STRIPE_PRICE_LITE;
 const STRIPE_PRICE_PLUS = process.env.STRIPE_PRICE_PLUS;
 const STRIPE_PRICE_PREMIUM = process.env.STRIPE_PRICE_PREMIUM;
-
 const DB_DATABASE = process.env.DB_DATABASE;
-
-
 module.exports = {
   env: {
     GTM: GTM,
