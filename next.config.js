@@ -10,10 +10,8 @@ const MAPBOX_LAT =  process.env.MAPBOX_LAT;
 const MAPBOX_LNG =  process.env.MAPBOX_LNG;
 const MAPSTUFF_OWNER_EMAIL = process.env.MAPSTUFF_OWNER_EMAIL;
 const MAPBOX_STYLE = process.env.MAPBOX_STYLE;
-
 const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY;
 const STRIPE_PUBLISHABLE_KEY = process.env.STRIPE_PUBLISHABLE_KEY;
-
 const STRIPE_PRICE_FREE = process.env.STRIPE_PRICE_FREE;
 const STRIPE_PRICE_LITE = process.env.STRIPE_PRICE_LITE;
 const STRIPE_PRICE_PLUS = process.env.STRIPE_PRICE_PLUS;
