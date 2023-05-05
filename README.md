@@ -1,5 +1,3 @@
-<img src="https://cinnamon.nyc3.cdn.digitaloceanspaces.com/cinnamon.digital/logos/cd-main.svg" width="125" alt="Cinnamon Digital Logo">
-
 <img src="https://cdn.gangnam.club/images/logos/map-stuff-logo-rect-black.svg" width="250" alt="MapStuff.io Logo">
 
 
